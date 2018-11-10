@@ -93,3 +93,5 @@ FEED_EXPORTERS = {
         'sample': 'sample.feedexporters.SampleExporter'
         }
 #DOWNLOADER_MIDDLEWARES = {'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,}
+DEPTH_LIMIT=3
+USER_AGENT = "curl/1.5"
